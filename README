@@ -1,6 +1,32 @@
 scala-labs
+==========
 
 Scala 2.9.1
 sbt 0.11
 
-Scala excercises focusing on classes, traits, objects, companion objects, pattern matching and implicit conversions. 
+Scala programming excercises focusing on classes, traits, objects, companion objects, pattern matching and implicit conversions. 
+
+Getting started
+===============
+Clone scala-labs repo
+run sbt
+
+Set current project to the lab you're working with (in sbt console)
+sbt> project lab01
+sbt> compile
+
+Fix all compile errors, then run the tests:
+
+sbt> test
+
+If you're stuck have a look a the solutions.
+
+Lab01 - constructors, auxilliary constructors
+Lab02 - traits
+Lab03 - constructors, function literals
+Lab04 - stackable traits
+Lab05 - objects
+Lab06 - Companion objects
+Lab07 - Pattern matching
+Lab08 - Case classes
+Lab09 - Implicit conversions
