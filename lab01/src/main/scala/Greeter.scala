@@ -1,9 +1,13 @@
-package com.jayway.scala-labs.lab01
+package lab01
 
 abstract class Greeter(greeting: String, msg: String) {
   def sayHello() = greeting + " " + msg
 }
 
-class GreeterSE extends Greeter("Hej!", "Scala Šr kul")
+// FIXME:
+// add subclasses MorningGreeter, DefaultGreeter, SimpleGreeter
 
-class GreeterEN extends Greeter("Hi!", "Scala is fun")
+// TIP:
+// Scala does not require every public class to be declared
+// in a file of the same name. Organizationally, it makes sense
+// for all of these trivial classes to be contained within the same file.
