@@ -11,7 +11,7 @@ abstract class Duck {
 class ModelDuck extends Duck {
   // FIXME
   // override the display method
-  // remeber that 'override' is a keyword and is required in Scala
+  // remember that 'override' is a keyword and is required in Scala
 }
 
 // FIXME
