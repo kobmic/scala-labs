@@ -11,15 +11,15 @@ Getting started
 Clone scala-labs repo
 run sbt
 
-Set current project to the lab you're working with (in sbt console)
-sbt> project lab01
-sbt> compile
-
 You can generate project files for eclipse:
 sbt> eclipse
 
 You can generate project files for Idea:
 sbt> gen-idea
+
+Set current project to the lab you're working with (in sbt console)
+sbt> project lab01
+sbt> compile
 
 
 Fix all compile errors, then run the tests:
