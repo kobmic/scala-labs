@@ -14,7 +14,7 @@ class Matcher {
     case true => "true"
     case "ping" => "pong"
     case x: String => "a string"
-    case (a: Int, b: Int) => "a tuple of ints"
+    case (a: Int, b: Int) => "a tuple of ints: (" + a + "," + b + ")"
     case (host: String, port: Int) => "host=" + host + " port=<" + port
     case List(_, 1, _) => "a list with 3 elems, with a 1 as second element"
     case 1 :: tail => "a list starting with a 1"
