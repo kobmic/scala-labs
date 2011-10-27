@@ -10,6 +10,8 @@ object Implicits {
   // add implicit conversion from Int to RichInt
   // Remember: use implicit keyword to mark an implicit conversion  
   
+  // FIXME def...
+  
   // FIXME
   // Add implicit conversion for source type String by
   // adding elvis operator '?:' for strings
