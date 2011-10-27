@@ -17,9 +17,7 @@ class ModelDuck extends Duck {
 // FIXME
 // add Mixins FlyNoWay and Squeak to the rubber duck
 class RubberDuck extends Duck {
-  override def display() = {
-    "I'm a rubber duck";
-  }
+  
 }
 
 // FIXME
