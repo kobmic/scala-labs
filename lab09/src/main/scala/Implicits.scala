@@ -27,7 +27,7 @@ object Implicits {
   // Remember that the implicit conversion has to be in scope 
   
   // FIXME: Use scala.collection.JavaConversions to convert
-  // between Java and Scala collections
+  // between Java and Scala collections and implement 'makeString'
   import scala.collection.mutable.Buffer
   class ScalaAdapter {
     
